@@ -7,19 +7,17 @@ Welcome to Flask
    :alt: Flask: web development, one drop at a time
    :class: floatingflask
 
-Welcome to Flask's documentation.  This documentation is divided into
-different parts.  I recommend that you get started with
-:ref:`installation` and then head over to the :ref:`quickstart`.
-Besides the quickstart, there is also a more detailed :ref:`tutorial` that
-shows how to create a complete (albeit small) application with Flask.  If
-you'd rather dive into the internals of Flask, check out
-the :ref:`api` documentation.  Common patterns are described in the
-:ref:`patterns` section.
+Bemvindo a documentação do Flask. Esta documentação está dividida em diferentes partes.
+Eu recomento que você inicie com a :ref:`installation` e então sim passe para o :ref:`quickstart`.
+Além do início rápido, tem também o :ref:`tutorial` mais detalhado, que
+mostra como criar uma aplicação completa (embora pequena) com Flask. Se
+você preferir pode também, pode mergulhar no Flask, lendo 
+a documentação da :ref:`api` interna. Os padrões mais comuns estão detalhados na parte de
+:ref:`patterns`.
 
-Flask depends on two external libraries: the `Jinja2`_ template
-engine and the `Werkzeug`_ WSGI toolkit.  These libraries are not documented
-here.  If you want to dive into their documentation, check out the
-following links:
+O Flask depende de duas bibliotecas externas: o motor de template `Jinja2`_ 
+e o conjunto de ferramentas WSGI `Werkzeug`_ .  Estas bibliotecas não estão documentadas aqui.
+Se você quer ver suas documentações veja os links abaixo:
 
 -   `Jinja2 Documentation <http://jinja.pocoo.org/2/documentation/>`_
 -   `Werkzeug Documentation <http://werkzeug.pocoo.org/documentation/>`_
