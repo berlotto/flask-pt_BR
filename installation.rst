@@ -1,55 +1,54 @@
 .. _installation:
 
-Installation
+Instalação
 ============
 
-Flask depends on two external libraries, `Werkzeug
-<http://werkzeug.pocoo.org/>`_ and `Jinja2 <http://jinja.pocoo.org/2/>`_.
-Werkzeug is a toolkit for WSGI, the standard Python interface between web
-applications and a variety of servers for both development and deployment.
-Jinja2 renders templates.
+Flask depende de duas bibliotecas externas, `Werkzeug
+<http://werkzeug.pocoo.org/>`_ e `Jinja2 <http://jinja.pocoo.org/2/>`_.
+Werkzeug é um conjunto de ferramentas para WSGI, a interface padrão do Python para web,
+aplicações e uma variedade de servidores para desenvolvimento e implantação.
+Jinja2 para gerar os templates.
 
-So how do you get all that on your computer quickly?  There are many ways you
-could do that, but the most kick-ass method is virtualenv, so let's have a look
-at that first.
+Então, como você obter tudo o que no seu computador rapidamente? Há muitas maneiras que você
+poderia fazer isso, mas o método mais rápido é o virtualenv, então vamos dar uma olhada primeiro.
 
-You will need Python 2.5 or higher to get started, so be sure to have an
-up-to-date Python 2.x installation.  Python 3.x is not supported.
+Você vai precisar do Python 2.5 ou superior para começar, por isso não deixe de
+atualizar sua instalação 2.x do Python. Python 3.x não é suportado.
 
 .. _virtualenv:
 
 virtualenv
 ----------
 
-Virtualenv is probably what you want to use during development, and if you have
-shell access to your production machines, you'll probably want to use it there,
-too.
+Virtualenv é provavelmente o que você vai querer usar durante o desenvolvimento, e se você tiver
+o acesso aos servidores de produção, provavelmente vai querer usá-lo lá também.
 
-What problem does virtualenv solve?  If you like Python as much as I do,
-chances are you want to use it for other projects besides Flask-based web
-applications.  But the more projects you have, the more likely it is that you
-will be working with different versions of Python itself, or at least different
-versions of Python libraries.  Let's face it: quite often libraries break
-backwards compatibility, and it's unlikely that any serious application will
-have zero dependencies.  So what do you do if two or more of your projects have
-conflicting dependencies?
+O problema que o virtualenv resolve? Se você gosta de Python tanto quanto eu,
+se você quiser usá-lo para outros projetos além de Flask para aplicações web.
+Mas os outros projetos que você tem, o mais provável é que você
+vai trabalhar com diferentes versões do Python, ou pelo menos diferente
+versões das bibliotecas. Vamos enfrentá-lo: muitas vezes bibliotecas quebrar
+compatibilidade com versões anteriores, e é improvável que qualquer aplicação séria vontade
+têm dependências de zero. Então, o que você faria se dois ou mais dos seus projetos têm
+dependências conflitantes?
 
-Virtualenv to the rescue!  Virtualenv enables multiple side-by-side
-installations of Python, one for each project.  It doesn't actually install
-separate copies of Python, but it does provide a clever way to keep different
-project environments isolated.  Let's see how virtualenv works.
+Virtualenv! Virtualenv permite várias instalações do Python,
+uma para cada projeto. Na verdade, não instala cópias separadas de Python,
+mas fornecem uma maneira inteligente de manter diferentes
+ambientes de projeto isolado. Vamos ver como funciona virtualenv.
 
-If you are on Mac OS X or Linux, chances are that one of the following two
-commands will work for you::
+
+Se você estiver usando Mac OS X ou Linux, é provável que um dos dois seguintes
+comandos irá funcionar para você::
 
     $ sudo easy_install virtualenv
 
-or even better::
+ou melhor ainda::
 
     $ sudo pip install virtualenv
 
-One of these will probably install virtualenv on your system.  Maybe it's even
-in your package manager.  If you use Ubuntu, try::
+Uma delas, provavelmente, vai instalar o virtualenv em seu sistema. Talvez seja mesmo
+em seu gerenciador de pacotes. Se você usa o Ubuntu, tente::
 
     $ sudo apt-get install python-virtualenv
 
