@@ -5,22 +5,22 @@ Instalação
 
 Flask depende de duas bibliotecas externas, `Werkzeug
 <http://werkzeug.pocoo.org/>`_ e `Jinja2 <http://jinja.pocoo.org/2/>`_.
-Werkzeug é um conjunto de ferramentas para WSGI, a interface padrão do Python para web,
-aplicações e uma variedade de servidores para desenvolvimento e implantação.
-Jinja2 para gerar os templates.
+Werkzeug é um conjunto de ferramentas para WSGI, a interface padrão do Python para aplicações web,
+em uma variedade de servidores para desenvolvimento e implantação.
+Jinja2 para renderizar os templates.
 
-Então, como você obter tudo o que no seu computador rapidamente? Há muitas maneiras que você
-poderia fazer isso, mas o método mais rápido é o virtualenv, então vamos dar uma olhada primeiro.
+Então, como você pode obter tudo no seu computador rapidamente? Há muitas maneiras de
+fazer isso, o método mais rápido é o virtualenv, então vamos dar uma olhada primeiro.
 
-Você vai precisar do Python 2.5 ou superior para começar, por isso não deixe de
-atualizar sua instalação 2.x do Python. Python 3.x não é suportado.
+Você vai precisar do Python 2.5 ou superior para começar, por isso você vai precisar
+atualizar sua instalação 2.x do Python. O Python 3.x não é suportado.
 
 .. _virtualenv:
 
 virtualenv
 ----------
 
-Virtualenv é provavelmente o que você vai querer usar durante o desenvolvimento, e se você tiver
+Virtualenv provavelmente o que você vai querer usar durante o desenvolvimento, e se você tiver
 o acesso aos servidores de produção, provavelmente vai querer usá-lo lá também.
 
 O problema que o virtualenv resolve? Se você gosta de Python tanto quanto eu,
