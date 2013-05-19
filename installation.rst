@@ -5,37 +5,31 @@ Instalação
 
 Flask depende de duas bibliotecas externas, `Werkzeug
 <http://werkzeug.pocoo.org/>`_ e `Jinja2 <http://jinja.pocoo.org/2/>`_.
-Werkzeug é um conjunto de ferramentas para WSGI, a interface padrão do Python para aplicações web,
-em uma variedade de servidores para desenvolvimento e implantação.
-Jinja2 para renderizar os templates.
+Werkzeug é um conjunto de ferramentas para WSGI, a interface padrão do Python entre aplicações web e uma variedade de servidores para desenvolvimento e implantação.
+Jinja2 é um renderizador de templates.
 
 Então, como você pode obter tudo no seu computador rapidamente? Há muitas maneiras de
 fazer isso, o método mais rápido é o virtualenv, então vamos dar uma olhada primeiro.
 
-Você vai precisar do Python 2.5 ou superior para começar, por isso você vai precisar
-atualizar sua instalação 2.x do Python. O Python 3.x não é suportado.
+Você vai precisar do Python 2.5 ou superior para começar, portanto confira se o python instalado é um versão 2.x atualizada. Flask ainda não suporta Python 3.x.
 
 .. _virtualenv:
 
 virtualenv
 ----------
 
-Virtualenv provavelmente o que você vai querer usar durante o desenvolvimento, e se você tiver
-o acesso aos servidores de produção, provavelmente vai querer usá-lo lá também.
+Virtualenv é provavelmente o que você vai querer usar durante o desenvolvimento, e se você tiver
+o acesso aos servidores de produção, provavelmente vai querer usá-lo também.
 
-O problema que o virtualenv resolve? Se você gosta de Python tanto quanto eu,
-se você quiser usá-lo para outros projetos além de Flask para aplicações web.
-Mas os outros projetos que você tem, o mais provável é que você
-vai trabalhar com diferentes versões do Python, ou pelo menos diferente
-versões das bibliotecas. Vamos enfrentá-lo: muitas vezes bibliotecas quebrar
-compatibilidade com versões anteriores, e é improvável que qualquer aplicação séria vontade
-têm dependências de zero. Então, o que você faria se dois ou mais dos seus projetos têm
-dependências conflitantes?
+Que problema que o virtualenv resolve? Se você gosta de Python tanto quanto eu, há chances de querer usá-lo para outros projetos além de Flask.
+Quanto mais projetos você tem, maiores são as chances de você usar versões de diferentes do python, ou pelo menos diferentes
+versões das bibliotecas python. Muitas vezes bibliotecas quebram por falta de
+compatibilidade com versões anteriores, e é improvável que qualquer aplicação séria não tenha nenhuma dependência. Então, o que você faria se dois ou mais projetos tivessem dependências em conflito?
 
 Virtualenv! Virtualenv permite várias instalações do Python,
-uma para cada projeto. Na verdade, não instala cópias separadas de Python,
+uma para cada projeto. Na verdade, ele não instala cópias separadas de Python,
 mas fornecem uma maneira inteligente de manter diferentes
-ambientes de projeto isolado. Vamos ver como funciona virtualenv.
+ambientes de projeto isolado. Vamos ver como funciona.
 
 
 Se você estiver usando Mac OS X ou Linux, é provável que um dos dois seguintes
@@ -47,15 +41,11 @@ ou melhor ainda::
 
     $ sudo pip install virtualenv
 
-Uma delas, provavelmente, vai instalar o virtualenv em seu sistema. Talvez seja mesmo
-em seu gerenciador de pacotes. Se você usa o Ubuntu, tente::
+Uma delas, provavelmente, vai instalar o virtualenv em seu sistema. Talvez ele já esteja em seu gerenciador de pacotes. Se você usa o Ubuntu, tente::
 
     $ sudo apt-get install python-virtualenv
 
-If you are on Windows and don't have the `easy_install` command, you must
-install it first.  Check the :ref:`windows-easy-install` section for more
-information about how to do that.  Once you have it installed, run the same
-commands as above, but without the `sudo` prefix.
+Caso você use Windows e não tem o comando `easy_install`, instale-o. Confire a seção :ref:`windows-easy-install` para mais informações. Uma vez tudo pronto, execute algum dos comandos acima, porém sem o prefixo `sudo`.
 
 Once you have virtualenv installed, just fire up a shell and create
 your own environment.  I usually create a project folder and a `venv`
