@@ -85,18 +85,18 @@ Isto é possível, embora eu não recomendo. Basta executar
 
     $ sudo pip install Flask
 
-(Em sistemas Windows, execute no prompt de comando com o com privilégios de administrador,
+(Em sistemas Windows, execute no prompt de comando com privilégios de administrador,
 sem usar o comando `sudo`).
 
 
-Living on the Edge
+Vivendo no Limite
 ------------------
 
-If you want to work with the latest version of Flask, there are two ways: you
-can either let `pip` pull in the development version, or you can tell
-it to operate on a git checkout.  Either way, virtualenv is recommended.
+Se você quiser trabalhar com a última versão do Flask, há duas maneiras: você
+pode deixar `pip` baixar a versão de desenvolvimento, ou você pode
+fazer um git checkout. De qualquer maneira, é recomendado o virtualenv.
 
-Get the git checkout in a new virtualenv and run in development mode::
+Usando o git checkout para um novo virtualenv e executar em modo de desenvolvimento::
 
     $ git clone http://github.com/mitsuhiko/flask.git
     Initialized empty Git repository in ~/dev/flask/.git/
@@ -109,11 +109,11 @@ Get the git checkout in a new virtualenv and run in development mode::
     ...
     Finished processing dependencies for Flask
 
-This will pull in the dependencies and activate the git head as the current
-version inside the virtualenv.  Then all you have to do is run ``git pull
-origin`` to update to the latest version.
+Isso vai puxar as dependências e ativar a versão atual do git
+dentro do virtualenv. Então tudo que você tem a fazer é executar o ``git pull
+origin`` para atualizar para a versão mais recente.
 
-To just get the development version without git, do this instead::
+Para obter apenas a versão de desenvolvimento sem git, basta fazer isso::
 
     $ mkdir flask
     $ cd flask
@@ -127,13 +127,14 @@ To just get the development version without git, do this instead::
 
 .. _windows-easy-install:
 
-`pip` and `distribute` on Windows
+`pip` e `distribute` no Windows
 -----------------------------------
 
-On Windows, installation of `easy_install` is a little bit trickier, but still
-quite easy.  The easiest way to do it is to download the
-`distribute_setup.py`_ file and run it.  The easiest way to run the file is to
-open your downloads folder and double-click on the file.
+No Windows, a instalação do `easy_install` é um pouco mais complicado, mas ainda assim
+muito fácil. A maneira mais fácil de fazer isso é fazer o download do
+arquivo `distribute_setup.py`_ e executá-lo. A maneira mais fácil de executar o arquivo é
+abrir sua pasta de downloads e clique duas vezes no arquivo.
+
 
 Next, add the `easy_install` command and other Python scripts to the
 command search path, by adding your Python installation's Scripts folder
