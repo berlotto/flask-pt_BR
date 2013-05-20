@@ -85,9 +85,6 @@ Isto é possível, embora eu não recomendo. Basta executar
 
     $ sudo pip install Flask
 
-(On Windows systems, run it in a command-prompt window with administrator
-privileges, and leave out `sudo`.)
-
 (Em sistemas Windows, execute no prompt de comando com o com privilégios de administrador,
 sem usar o comando `sudo`).
 
