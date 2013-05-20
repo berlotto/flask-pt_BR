@@ -47,9 +47,9 @@ Uma delas, provavelmente, vai instalar o virtualenv em seu sistema. Talvez ele j
 
 Caso você use Windows e não tem o comando `easy_install`, instale-o. Confire a seção :ref:`windows-easy-install` para mais informações. Uma vez tudo pronto, execute algum dos comandos acima, porém sem o prefixo `sudo`.
 
-Once you have virtualenv installed, just fire up a shell and create
-your own environment.  I usually create a project folder and a `venv`
-folder within::
+Depois de ter instalado o virtualenv, basta executar o shell e criar
+seu próprio ambiente. Eu costumo criar uma pasta de projeto e uma pasta `venv`
+dentro::
 
     $ mkdir myproject
     $ cd myproject
@@ -57,36 +57,39 @@ folder within::
     New python executable in venv/bin/python
     Installing distribute............done.
 
-Now, whenever you want to work on a project, you only have to activate the
-corresponding environment.  On OS X and Linux, do the following::
+Agora, sempre que você quiser trabalhar em um projeto, você só tem que ativar o
+ambiente correspondente. No OS X e Linux, faça o seguinte::
 
     $ . venv/bin/activate
 
-If you are a Windows user, the following command is for you::
+Se você é um usuário Windows, execute o comando a abaixo::
 
     $ venv\scripts\activate
 
-Either way, you should now be using your virtualenv (notice how the prompt of
-your shell has changed to show the active environment).
+De qualquer forma, agora você deve estar usando seu virtualenv (note como o prompt de
+seu shell mudou para mostrar o ambiente ativo).
 
-Now you can just enter the following command to get Flask activated in your
+Agora você pode digitar o seguinte comando para instalar o Flask em seu
 virtualenv::
 
     $ pip install Flask
 
-A few seconds later and you are good to go.
+Poucos segundos depois, e ele estará instalado.
 
 
-System-Wide Installation
+Instalação no Sistema
 ------------------------
 
-This is possible as well, though I do not recommend it.  Just run
-`pip` with root privileges::
+Isto é possível, embora eu não recomendo. Basta executar
+`pip` com privilégios de root::
 
     $ sudo pip install Flask
 
 (On Windows systems, run it in a command-prompt window with administrator
 privileges, and leave out `sudo`.)
+
+(Em sistemas Windows, execute no prompt de comando com o com privilégios de administrador,
+sem usar o comando `sudo`).
 
 
 Living on the Edge
