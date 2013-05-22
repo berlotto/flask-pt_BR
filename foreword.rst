@@ -1,11 +1,11 @@
-Foreword
+Prefácio
 ========
 
-Read this before you get started with Flask.  This hopefully answers some
-questions about the purpose and goals of the project, and when you
-should or should not be using it.
+Leia isso antes de começar a usar o Flask. Espero que responda a algumas
+questões sobre a finalidade e os objetivos do projeto, e quando você
+deve ou não usá-lo.
 
-What does "micro" mean?
+Qual o significado de "micro" ?
 -----------------------
 
 “Micro” does not mean that your whole web application has to fit into a single
@@ -24,20 +24,20 @@ provide database integration, form validation, upload handling, various open
 authentication technologies, and more. Flask may be "micro", but it's ready for
 production use on a variety of needs.
 
-Configuration and Conventions
+Configuração e Convenções
 -----------------------------
 
-Flask has many configuration values, with sensible defaults, and a few
-conventions when getting started.  By convention templates and static files are
-stored in subdirectories within the application's Python source tree, with the
-names `templates` and `static` respectively. While this can be changed you
-usually don't have to, especially when getting started.
+Flask tem muitos valores de configuração, com padrões sensíveis, e algumas
+convenções quando começar. Para convenções de templates e arquivos estáticos são
+armazenados em subdiretórios dentro da aplicação na árvore fonte do Python, com o
+nomes `templates` e `static` respectivamente. Embora isso possa ser mudado por você,
+geralmente não precisa, especialmente quando começar.
 
-Growing with Flask
+Crescendo com Flask
 ------------------
 
-Once you have Flask up and running, you'll find a variety of extensions
-available in the community to integrate your project for production. The Flask
+Depois de ter o Flask instalado e funcionando, você vai encontrar uma variedade de extensões
+disponíveis na comunidade para integrar no seu projecto em produção. The Flask
 core team reviews extensions and ensures approved extensions do not break with
 future releases.
 
