@@ -1,27 +1,26 @@
-License
+Licença
 =======
 
-Flask is licensed under a three clause BSD License.  It basically means:
-do whatever you want with it as long as the copyright in Flask sticks
-around, the conditions are not modified and the disclaimer is present.
-Furthermore you must not use the names of the authors to promote derivatives
-of the software without written consent.
+Flask está licenciada sob três cláusula de licença BSD. Basicamente, significa:
+Faça o que você quiser com o Flask desde que preserve os direitos autorais.
+Além disso, você não deve usar os nomes dos autores para promover derivados
+do software sem consentimento por escrito.
 
-The full license text can be found below (:ref:`flask-license`).  For the
-documentation and artwork different licenses apply.
+O texto completo da licença pode ser encontrada abaixo (:ref:`flask-license`). Para
+documentação e obras de arte aplicam-se licenças diferentes.
 
 .. _authors:
 
-Authors
+Autores
 -------
 
 .. include:: ../AUTHORS
 
-General License Definitions
+Definições gerais de Licenciamento
 ---------------------------
 
-The following section contains the full license texts for Flask and the
-documentation.
+A seção a seguir contém os textos completos da licença do Flask e a
+documentação.
 
 -   "AUTHORS" hereby refers to all the authors listed in the
     :ref:`authors` section.
@@ -34,7 +33,7 @@ documentation.
 
 .. _flask-license:
 
-Flask License
+Licença Flask
 -------------
 
 .. include:: ../LICENSE
@@ -42,7 +41,7 @@ Flask License
 
 .. _artwork-license:
 
-Flask Artwork License
+Licença Flask Artwork
 ---------------------
 
 .. include:: ../artwork/LICENSE
