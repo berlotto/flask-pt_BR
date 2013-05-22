@@ -16,13 +16,13 @@ what database to use. Those decisions that it does make, such as what
 templating engine to use, are easy to change.  Everything else is up to you, so
 that Flask can be everything you need and nothing you don't.
 
-By default, Flask does not include a database abstraction layer, form
-validation or anything else where different libraries already exist that can
-handle that. Instead, Flask supports extensions to add such functionality to
-your application as if it was implemented in Flask itself. Numerous extensions
-provide database integration, form validation, upload handling, various open
-authentication technologies, and more. Flask may be "micro", but it's ready for
-production use on a variety of needs.
+Por padrão, Flask não inclui uma camada de abstração de banco de dados, uma validação de form
+ou qualquer outra coisa que já exista em bibliotecas diferentes que podem
+lidar com isso. Em vez disso, Flask suporta extensões para adicionar essa funcionalidade para
+sua aplicação como se fosse implantado no Flask. Há várias extensões
+para proporcionar a integração de banco de dados, validação de formulário, manipulação de upload, vários tecnologias
+de autenticação abertas, e mais. Flask pode ser "micro", mas está pronto para
+uso na produção e uma variedade de necessidades.
 
 Configuração e Convenções
 -----------------------------
