@@ -8,21 +8,21 @@ deve ou não usá-lo.
 Qual o significado de "micro" ?
 -----------------------
 
-“Micro” does not mean that your whole web application has to fit into a single
-Python file, although it certainly can. Nor does it mean that Flask is lacking
-in functionality. The "micro" in microframework means Flask aims to keep the
-core simple but extensible. Flask won't make many decisions for you, such as
-what database to use. Those decisions that it does make, such as what
-templating engine to use, are easy to change.  Everything else is up to you, so
-that Flask can be everything you need and nothing you don't.
+"Micro" não significa que a sua aplicação web inteira tem que se encaixar em um único
+arquivo Python, embora certamente pode. Também não quer dizer que o Flask está faltando
+em termos de funcionalidade. O "micro" no microframework Flask visa manter o
+núcleo simples, mas extensível. Flask não vai tomar muitas decisões para você, como
+o banco de dados para usar. Essas decisões que ele faz, como o que
+motor de templates usar, são fáceis de mudar. Todo o resto é com você, então
+o Flask que pode ser tudo que você precisa e nada que você não faz.
 
 Por padrão, Flask não inclui uma camada de abstração de banco de dados, uma validação de form
-ou qualquer outra coisa que já exista em bibliotecas diferentes que podem
-lidar com isso. Em vez disso, Flask suporta extensões para adicionar essa funcionalidade para
+ou qualquer outra coisa que já exista em bibliotecas diferentes que pode
+lidar com isso. Em vez disso, Flask suporta extensões para adicionar essa funcionalidade a
 sua aplicação como se fosse implantado no Flask. Há várias extensões
 para proporcionar a integração de banco de dados, validação de formulário, manipulação de upload, vários tecnologias
-de autenticação abertas, e mais. Flask pode ser "micro", mas está pronto para
-uso na produção e uma variedade de necessidades.
+de autenticação abertas, e muito mais. Flask pode ser "micro", mas está pronto para
+uso na produção para uma variedade de necessidades.
 
 Configuração e Convenções
 -----------------------------
@@ -41,12 +41,12 @@ disponíveis na comunidade para integrar no seu projecto em produção. The Flas
 core team reviews extensions and ensures approved extensions do not break with
 future releases.
 
-As your codebase grows, you are free to make the design decisions appropriate
-for your project.  Flask will continue to provide a very simple glue layer to
-the best that Python has to offer.  You can implement advanced patterns in
-SQLAlchemy or another database tool, introduce non-relational data persistence
-as appropriate, and take advantage of framework-agnostic tools built for WSGI,
-the Python web interface.
+Como sua base de código cresce, você é livre para tomar as decisões de design apropriado
+para seu projeto. Flask irá continuar a proporcionar uma camada de cola muito simples
+o melhor que Python tem a oferecer. Você pode implementar padrões avançados em
+SQLAlchemy ou outra ferramenta de banco de dados, introduzir a persistência de dados não-relacional
+conforme o caso, e tirar proveito de ferramentas de framework-agnostic construídos para WSGI,
+a interface web para Python.
 
 Flask includes many hooks to customize its behavior. Should you need more
 customization, the Flask class is built for subclassing. If you are interested
