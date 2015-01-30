@@ -133,28 +133,28 @@ Para obter apenas a versão de desenvolvimento sem git, basta fazer isso::
 No Windows, a instalação do `easy_install` é um pouco mais complicado, mas ainda assim
 muito fácil. A maneira mais fácil de fazer isso é fazer o download do
 arquivo `distribute_setup.py`_ e executá-lo. A maneira mais fácil de executar o arquivo é
-abrir sua pasta de downloads e clique duas vezes no arquivo.
+abrir sua pasta de downloads e clicar duas vezes no arquivo.
 
-
-Next, add the `easy_install` command and other Python scripts to the
-command search path, by adding your Python installation's Scripts folder
-to the `PATH` environment variable.  To do that, right-click on the
-"Computer" icon on the Desktop or in the Start menu, and choose "Properties".
-Then click on "Advanced System settings" (in Windows XP, click on the
-"Advanced" tab instead).  Then click on the "Environment variables" button.
-Finally, double-click on the "Path" variable in the "System variables" section,
-and add the path of your Python interpreter's Scripts folder. Be sure to
-delimit it from existing values with a semicolon.  Assuming you are using
-Python 2.7 on the default path, add the following value::
+Depois, adicione `easy_install` e outros scripts Python ao path, 
+isso pode ser feito adicionando a pasta de Scripts do diretório 
+de instalação do Python a variável de ambiente `PATH`. Para fazer isso, 
+clique com o botão direito no ícone "Meu Computador" na Área de Trabalho 
+ou no menu iniciar, e selecione "Propriedades".
+Então clique em "Configurações Avançadas de Sistema" (no Windows XP, 
+clique na aba "Avançado"). Feito isso, clique no botão "Variáveis de Ambiente".
+Finalmente, dê um duplo-clique na variável "PATH" na seção "Variáveis de Sistema",
+e adicione o path do seu diretório de interpretador de Scripts do Python. Assegure-se
+de separá-lo dos valores já existentes com um ponto-e-vírgula. Supondo que você
+está utilizando Python 2.7 no path padrão, adicione o seguinte valor::
 
 
     ;C:\Python27\Scripts
 
-And you are done!  To check that it worked, open the Command Prompt and execute
-``easy_install``.  If you have User Account Control enabled on Windows Vista or
-Windows 7, it should prompt you for administrator privileges.
+E está pronto! Para confirmar que isso funcionou, abra o Prompt de Comando e execute
+``easy_install``.  Se você possuir o Controle da Conta de Usuário habilitado no Windows
+Vista ou Windows 7, isso deve lhe solicitar privilégios de Administrador.
 
-Now that you have ``easy_install``, you can use it to install ``pip``::
+Agora você que tem ``easy_install``, você pode utilizá-lo para instalar ``pip``::
 
     > easy_install pip
 
